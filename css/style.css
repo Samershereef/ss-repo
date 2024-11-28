@@ -1,0 +1,80 @@
+.sec{
+    background-color: #24353F;
+    min-height: 100vh;
+}
+.loginsec{
+    width: 60%;
+    background-color: #24353F;
+    box-shadow:  0 4px  8px rgba(0, 0, 0, 0.3 );
+    padding-top: 60px;
+   
+}
+.loginsec2{
+    width: 60%;
+    background-color: #24353F;
+    box-shadow:  0 4px  8px rgba(0, 0, 0, 0.3 );
+    padding-top: 60px;
+}
+.loginsec ::placeholder{
+    color: lightgray;
+}
+.loginsec input{
+    width: 90%;
+    background-color: transparent;
+    
+}
+.loginsec2 ::placeholder{
+    color: lightgray;
+}
+.loginsec2 input{
+    width: 90%;
+    background-color: transparent;
+    
+}
+.mybtn{
+    color: #1C798B;
+    width: 90%;
+    border-bottom: 1px solid   #1C798B;
+    border-top: 1px solid   #1C798B;
+    border-left: 1px solid   #1C798B;
+    border-right: 1px solid   #1C798B;
+    background-color: transparent;
+    margin-left: 5%;
+    height:40px;
+    
+}
+.loginsec .mybtn:hover{
+background-color: #1C798B;
+color: white;
+}
+.loginsec2 .mybtn:hover{
+    background-color: #1C798B;
+    color: white;
+}
+.loginsec span:hover{
+    border-bottom: 3px solid white;
+    cursor: pointer;
+
+}
+.loginsec2 span:hover{
+    border-bottom: 3px solid white;
+     cursor: pointer;
+}
+.loginsec2{
+background-color: #24353F
+}
+.nav{
+    box-shadow:  0 4px  8px rgba(0, 0, 0, 0.3 );
+}
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+
+    color: #1C798B;
+    margin-top: 250px;
+    background-color:#24353F;
+    height: 150px;
+    box-shadow:  4px 4px 4px 4px rgba(0, 0, 0, 0.3 );
+}

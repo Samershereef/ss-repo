@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=., initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<section class="sec">
+    <div class="loginsec  mx-auto p-5">
+        <h2 class="text-center text-info fs-1 p-3">Smart Login System</h2>
+        <input type="email" class="form-control mx-auto my-3  " id="email" placeholder="Enter Your Email">
+        <input type="password" id="password" class="form-control mx-auto mb-5" placeholder=" Enter Your password">
+        <p class="text-success fw-bold d-none text-center" id="p1">Success</p>
+        <p class="text-danger fw-bold  d-none text-center" id="p2">All inputs is required</p>
+        <p class="text-danger fw-bold  d-none text-center" id="p4" > Invalid Email Or Password</p>
+        <button type="button" class="mybtn fw-bold " id="loginbtn">Login</button>
+        <p class="text-light text-center pt-4">Don’t have an account? <span id="upbtn"> Signup</span></p>
+    </div>
+
+
+
+
+
+
+    <div class="loginsec2  mx-auto p-5 d-none">
+        <h2 class="text-center text-info fs-1 p-3">Smart Login System</h2>
+        <input type="text" class="form-control mx-auto my-3  " id="nameinput2" placeholder="Enter Your Name">
+        <input type="email" class="form-control mx-auto my-3  " id="emailinput2" placeholder="Enter Your Email">
+        <input type="password" id="passwordinput2" class="form-control mx-auto mb-5" placeholder=" Enter Your password">
+        <p class="text-success fw-bold d-none text-center" id="p11">Success</p>
+        <p class="text-danger fw-bold  d-none text-center" id="p21">All inputs is required</p>
+        <p class="text-danger fw-bold  d-none text-center" id="p31"> Email Already Exist</p>
+        <button type="button" class="mybtn fw-bold my-3 " id="signupbtn" >Sign Up</button>
+        <p class="text-light text-center pt-4">You have an account? <span id="inbtn">Signin</span></p>
+        
+    </div>
+
+    <div class="loginsec3 d-none">
+      <div class="d-flex justify-content-between nav ">
+        <p class="fs-1 ms-5 my-auto text-light">SMART LOGIN</p>
+        <button type="button" class="btn btn-outline-warning me-5" id="logoutbtn">logout</button>
+      </div>
+      <div class="box w-50 mx-auto col-md-6 ">
+        <p class="fs-1 fw-bold text-center">welcom <span id="username"></span></p>
+      </div>
+
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+
+
+</body>
+</html>
